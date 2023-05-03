@@ -10,7 +10,7 @@
   width: 100%;
   display: flex;
   z-index: 3;
-  position: fixed;
+  position: relative;
   background: white;
   max-height: 6rem;
   min-height: 3.2rem;
