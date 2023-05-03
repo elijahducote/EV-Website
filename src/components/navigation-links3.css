@@ -1,6 +1,7 @@
 .navigation-links3-nav {
   flex: 0 0 auto;
   display: flex;
+  font-size: 1rem;
   align-items: center;
   padding-left: 4rem;
   padding-right: 4rem;
@@ -8,7 +9,6 @@
 }
 .navigation-links3-text {
   color: var(--dl-color-primary-300);
-  font-style: 1rem;
 }
 .navigation-links3-thq-dropdown {
   cursor: pointer;
@@ -30,7 +30,6 @@
 }
 .navigation-links3-text1 {
   color: rgb(0, 0, 0);
-  font-size: 1rem;
   font-style: normal;
   text-align: center;
   font-weight: 400;
@@ -235,6 +234,7 @@
   background-color: #595959;
 }
 .navigation-links3-icon2 {
+  fill: #dd4f00;
   width: 2rem;
   height: 2rem;
   align-self: center;
@@ -303,17 +303,14 @@
   height: 100%;
 }
 .navigation-links3-link {
-  font-size: 1rem;
   margin-left: var(--dl-space-space-twounits);
   text-decoration: none;
 }
 .navigation-links3-navlink {
-  font-size: 1rem;
   margin-left: var(--dl-space-space-twounits);
   text-decoration: none;
 }
 .navigation-links3-link1 {
-  font-size: 1rem;
   margin-left: var(--dl-space-space-twounits);
   text-decoration: none;
 }

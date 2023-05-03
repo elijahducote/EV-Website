@@ -13,6 +13,7 @@
   z-index: 3;
   position: fixed;
   background: white;
+  max-height: 6rem;
   min-height: 3.2rem;
   align-items: center;
   padding-top: 0.4rem;
@@ -32,12 +33,15 @@
 .home-icon-group {
   display: inline-block;
   position: relative;
+  min-width: 6rem;
   align-self: center;
   min-height: 1.8rem;
-  margin-right: 16%;
+  margin-left: -1rem;
+  margin-right: 2rem;
 }
 .home-row {
-  display: inline;
+  fill: #ff7700;
+  display: inline-block;
 }
 .home-icon {
   fill: #ff7700;
@@ -48,7 +52,7 @@
 }
 .home-row1 {
   fill: #833AB4;
-  display: inline;
+  display: inline-block;
 }
 .home-icon02 {
   fill: #D25D6F;
@@ -59,9 +63,10 @@
 }
 .home-row2 {
   fill: #FF0000;
-  display: inline;
+  display: inline-block;
 }
 .home-icon04 {
+  fill: #FF0000;
   width: 1.6rem;
   height: 1.6rem;
   margin-right: 1rem;
@@ -505,6 +510,7 @@
   margin-top: 4rem;
   min-height: 57vh;
   align-items: center;
+  margin-bottom: 2rem;
   flex-direction: column;
   background-size: cover;
   justify-content: center;
@@ -512,14 +518,15 @@
 }
 .home-text02 {
   color: var(--dl-color-gray-white);
-  font-size: 3rem;
-  text-shadow: 0 .2rem .15rem rgba(0,0,0,0.4), 0 .4rem .65rem rgba(0,0,0,0.1), 0 .9rem 1.15rem rgba(0,0,0,0.1);
+  font-size: 6rem;
+  text-shadow: 0 .2rem .15rem rgba(0,0,0,0.6), 0 .4rem .65rem rgba(0,0,0,0.3), 0 .9rem 1.15rem rgba(0,0,0,0.3);
 }
 .home-text05 {
   color: var(--dl-color-gray-white);
-  font-size: 1rem;
+  font-size: 1.6rem;
   margin-top: var(--dl-space-space-twounits);
-  text-shadow: 0 .2rem .15rem rgba(0,0,0,0.4), 0 .4rem .65rem rgba(0,0,0,0.1), 0 .9rem 1.15rem rgba(0,0,0,0.1);
+  font-weight: 500;
+  text-shadow: 0 .2rem .15rem rgba(0,0,0,0.7), 0 .4rem .65rem rgba(0,0,0,0.2), 0 .9rem 1.15rem rgba(0,0,0,0.2);
   margin-bottom: var(--dl-space-space-twounits);
 }
 .home-btn-group {
@@ -528,18 +535,24 @@
   flex-direction: row;
 }
 .home-link8 {
-  font-size: 0.75rem;
+  width: 1.6ren;
+  height: 5rem;
+  font-size: .75rem;
+  min-height: 2rem;
   transition: 0.3s;
-  padding-top: var(--dl-space-space-unit);
+  padding-top: 1.6rem;
   border-width: 0px;
-  padding-left: var(--dl-space-space-twounits);
-  padding-right: var(--dl-space-space-twounits);
-  padding-bottom: var(--dl-space-space-unit);
+  padding-left: 3.2rem;
+  padding-right: 3.2rem;
+  padding-bottom: 1.6rem;
   text-transform: uppercase;
   text-decoration: none;
 }
 .home-link8:hover {
   transform: scale(1.02);
+}
+.home-text08 {
+  font-size: 1.6rem;
 }
 .home-text09:hover {
   transform: scale(1.02);
@@ -560,13 +573,11 @@
     display: none;
   }
   .home-hero {
-    height: 18rem;
-    min-height: 50vh;
     background-image: url("/playground_assets/weird_state.png");
   }
   .home-text02 {
     color: var(--dl-color-gray-white);
-    font-size: 3rem;
+    font-size: 6rem;
   }
   .home-text05 {
     color: var(--dl-color-gray-white);
@@ -605,6 +616,15 @@
   }
 }
 @media(max-width: 991px) {
+  .home-header {
+    padding-top: .5rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-bottom: .4rem;
+  }
+  .home-icon-group {
+    margin-right: 1rem;
+  }
   .home-icon06 {
     display: flex;
   }
@@ -615,6 +635,7 @@
     flex-direction: column;
   }
   .home-text02 {
+    font-size: 5rem;
     text-align: center;
   }
   .home-text03 {
@@ -631,14 +652,16 @@
 }
 @media(max-width: 767px) {
   .home-header {
-    padding-left: var(--dl-space-space-twounits);
-    padding-right: var(--dl-space-space-twounits);
+    padding-left: 2rem;
+    padding-right: 2rem;
   }
   .home-nav {
     display: none;
   }
   .home-icon-group {
     align-self: center;
+    margin-right: -4rem;
+    padding-right: 6rem;
   }
   .home-burger-menu {
     display: flex;
@@ -672,8 +695,11 @@
     align-self: center;
   }
   .home-hero {
-    padding-left: var(--dl-space-space-twounits);
-    padding-right: var(--dl-space-space-twounits);
+    padding-left: 1.6rem;
+    padding-right: 1.6rem;
+  }
+  .home-text02 {
+    font-size: 4rem;
   }
   .home-iframe {
     width: 28rem;
@@ -683,7 +709,7 @@
 }
 @media(max-width: 479px) {
   .home-header {
-    padding: var(--dl-space-space-unit);
+    padding: 1rem;
   }
   .home-icon-group {
     display: none;
@@ -695,11 +721,13 @@
     display: none;
   }
   .home-hero {
-    width: 100%;
-    padding: var(--dl-space-space-twounits);
-    padding-top: var(--dl-space-space-twounits);
-    padding-left: var(--dl-space-space-unit);
-    padding-right: var(--dl-space-space-unit);
+    padding: 2rem;
+    padding-top: 2rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  .home-text02 {
+    font-size: 4rem;
   }
   .home-btn-group {
     flex-direction: column;
