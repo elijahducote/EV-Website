@@ -357,6 +357,7 @@ const Merch = (props) => {
           html={`<div id="shop">
 </div>
 
+
 <script>
     var spread_shop_config = {
         shopName: 'evdmusic',
@@ -364,12 +365,6 @@ const Merch = (props) => {
         prefix: 'https://evdmusic.myspreadshop.com',
         baseId: 'shop'
     };
-window.onload();
-</script>
-
-<script type="text/javascript"
-        src="https://evdmusic.myspreadshop.com/shopfiles/shopclient/shopclient.nocache.js">
-window.onload();
 </script>
 <script>
 var base;
@@ -378,6 +373,10 @@ base = document.getElementsByTagName('body')[0];
 if (base.getAttribute('id') == null) {
 base.firstElementChild.remove();
 }}
+</script>
+<script type="text/javascript"
+        src="https://evdmusic.myspreadshop.com/shopfiles/shopclient/shopclient.nocache.js">
+window.onload();
 </script>`}
         ></DangerousHTML>
       </div>
