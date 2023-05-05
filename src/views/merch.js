@@ -14,27 +14,6 @@ const Merch = (props) => {
         <title>Merch - Ev Music</title>
         <meta property="og:title" content="Merch - Ev Music" />
       </Helmet>
-      <div className="merch-code-embed">
-        <DangerousHTML
-          html={`<div id="shop">
-</div>
-
-<script>
-    var spread_shop_config = {
-        shopName: 'evdmusic',
-        locale: 'us_US',
-        prefix: 'https://evdmusic.myspreadshop.com',
-        baseId: 'shop'
-    };
-</script>
-
-<script type="text/javascript"
-        src="https://evdmusic.myspreadshop.com/shopfiles/shopclient/shopclient.nocache.js">
-        var div = document.getElementByTagName("div").firstChild;
-        div.remove();
-</script>`}
-        ></DangerousHTML>
-      </div>
       <header data-role="Header" className="merch-header">
         <img
           alt="logo"
@@ -373,6 +352,27 @@ const Merch = (props) => {
           </div>
         </div>
       </header>
+      <div className="merch-code-embed">
+        <DangerousHTML
+          html={`<div id="shop">
+</div>
+
+<script>
+    var spread_shop_config = {
+        shopName: 'evdmusic',
+        locale: 'us_US',
+        prefix: 'https://evdmusic.myspreadshop.com',
+        baseId: 'shop'
+    };
+</script>
+
+<script type="text/javascript"
+        src="https://evdmusic.myspreadshop.com/shopfiles/shopclient/shopclient.nocache.js">
+        var div = document.getElementByTagName("div").firstChild;
+        div.remove();
+</script>`}
+        ></DangerousHTML>
+      </div>
     </div>
   )
 }
