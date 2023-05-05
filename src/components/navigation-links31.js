@@ -239,63 +239,63 @@ const NavigationLinks31 = (props) => {
 }
 
 NavigationLinks31.defaultProps = {
-  rootClassName: '',
-  text5: 'Home',
-  text21: 'DJ Ev',
-  text31: 'Merch',
-  text41: 'Listen',
+  text3211111: 'When the Wind Blows',
+  text3: 'Days to Grow',
   link_text2111:
     'https://soundcloud.com/yearthree/sets/recover-now-or-never?utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing',
-  text32111: 'Recover Now or Never',
-  link_text211111:
-    'https://soundcloud.com/yearthree/sets/when-the-wind-blows-album?si=ae6495e32fdf44c6aa72beaed9bf4b10&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing',
-  text3211111: 'When the Wind Blows',
-  text3211: 'Mom 3:16',
-  link_text211:
-    'https://soundcloud.com/yearthree/sets/mom-3-16-album?si=86c42737389a43669d304298323bf524&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing',
-  text32111111: 'Year Three',
-  link_text2111111:
-    'https://soundcloud.com/yearthree/sets/year-three?si=d0e622465a7a4d0aa9a759bef663a6f4&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing',
+  text21: 'DJ Ev',
   text321: 'Lost Valentine',
-  link_text21:
-    'https://soundcloud.com/yearthree/sets/lost-valentine?si=e6c2046aa8634b539adda2b4ad48272b&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing',
-  link_text:
-    'https://soundcloud.com/yearthree/sets/thurgood-grooves?utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing',
-  text3: 'Days to Grow',
-  link_text2:
-    'https://soundcloud.com/yearthree/sets/loner?si=a12af9a8e6d94534a546335b2de5e996&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing',
-  text32: 'Loner EP',
-  text321111: 'Weird State',
+  text32111111: 'Year Three',
   link_text21111:
     'https://soundcloud.com/yearthree/sets/weird-state?si=ea2bad563c9f4eff9ab1285f4d78e394&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing',
+  rootClassName: '',
+  link_text21:
+    'https://soundcloud.com/yearthree/sets/lost-valentine?si=e6c2046aa8634b539adda2b4ad48272b&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing',
+  text32: 'Loner EP',
   text3211112: 'Trance Being',
+  link_text:
+    'https://soundcloud.com/yearthree/sets/thurgood-grooves?utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing',
   link_text211112: 'https://soundcloud.com/yearthree/sets/trance-being',
+  text31: 'Merch',
+  text321111: 'Weird State',
+  link_text2:
+    'https://soundcloud.com/yearthree/sets/loner?si=a12af9a8e6d94534a546335b2de5e996&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing',
+  text3211: 'Mom 3:16',
+  link_text2111111:
+    'https://soundcloud.com/yearthree/sets/year-three?si=d0e622465a7a4d0aa9a759bef663a6f4&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing',
+  text32111: 'Recover Now or Never',
+  text41: 'Listen',
+  text5: 'Home',
+  link_text211:
+    'https://soundcloud.com/yearthree/sets/mom-3-16-album?si=86c42737389a43669d304298323bf524&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing',
+  link_text211111:
+    'https://soundcloud.com/yearthree/sets/when-the-wind-blows-album?si=ae6495e32fdf44c6aa72beaed9bf4b10&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing',
 }
 
 NavigationLinks31.propTypes = {
-  rootClassName: PropTypes.string,
-  text5: PropTypes.string,
-  text21: PropTypes.string,
-  text31: PropTypes.string,
-  text41: PropTypes.string,
-  link_text2111: PropTypes.string,
-  text32111: PropTypes.string,
-  link_text211111: PropTypes.string,
   text3211111: PropTypes.string,
-  text3211: PropTypes.string,
-  link_text211: PropTypes.string,
-  text32111111: PropTypes.string,
-  link_text2111111: PropTypes.string,
-  text321: PropTypes.string,
-  link_text21: PropTypes.string,
-  link_text: PropTypes.string,
   text3: PropTypes.string,
-  link_text2: PropTypes.string,
-  text32: PropTypes.string,
-  text321111: PropTypes.string,
+  link_text2111: PropTypes.string,
+  text21: PropTypes.string,
+  text321: PropTypes.string,
+  text32111111: PropTypes.string,
   link_text21111: PropTypes.string,
+  rootClassName: PropTypes.string,
+  link_text21: PropTypes.string,
+  text32: PropTypes.string,
   text3211112: PropTypes.string,
+  link_text: PropTypes.string,
   link_text211112: PropTypes.string,
+  text31: PropTypes.string,
+  text321111: PropTypes.string,
+  link_text2: PropTypes.string,
+  text3211: PropTypes.string,
+  link_text2111111: PropTypes.string,
+  text32111: PropTypes.string,
+  text41: PropTypes.string,
+  text5: PropTypes.string,
+  link_text211: PropTypes.string,
+  link_text211111: PropTypes.string,
 }
 
 export default NavigationLinks31

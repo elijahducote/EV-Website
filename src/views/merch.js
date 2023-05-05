@@ -364,18 +364,20 @@ const Merch = (props) => {
         prefix: 'https://evdmusic.myspreadshop.com',
         baseId: 'shop'
     };
+window.onload();
 </script>
 
 <script type="text/javascript"
         src="https://evdmusic.myspreadshop.com/shopfiles/shopclient/shopclient.nocache.js">
+window.onload();
 </script>
 <script>
 var base;
 window.onload = function get_body() {
 base = document.getElementsByTagName('body')[0];
+if (base.getAttribute('id') == null) {
 base.firstElementChild.remove();
-}
-if (base) base.firstElementChild.remove();
+}}
 </script>`}
         ></DangerousHTML>
       </div>
