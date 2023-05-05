@@ -94,7 +94,7 @@ const Home = (props) => {
                     data-thq="thq-dropdown-toggle"
                     className="home-dropdown-toggle"
                   >
-                    <span className="home-text01">Albums</span>
+                    <span className="home-text1">Albums</span>
                     <div
                       data-thq="thq-dropdown-arrow"
                       className="home-dropdown-arrow"
@@ -328,11 +328,7 @@ const Home = (props) => {
         </div>
       </header>
       <div className="home-hero vignette content">
-        <h1 className="home-text02">
-          <span className="home-text03">“Weird State”</span>
-          <br></br>
-        </h1>
-        <span className="home-text05">
+        <span className="home-text2">
           <span>
             This album is an ambient electronic story about a man, an
             interaction with aliens, and his family.
@@ -346,8 +342,8 @@ const Home = (props) => {
             rel="noreferrer noopener"
             className="home-link8 button"
           >
-            <span className="home-text08">
-              <span className="home-text09">Stream Now</span>
+            <span className="home-text5">
+              <span className="home-text6">Stream Now</span>
               <br></br>
             </span>
           </a>
