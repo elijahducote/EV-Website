@@ -17,7 +17,6 @@
   align-items: center;
   padding-top: 0.4rem;
   padding-left: 2.4rem;
-  margin-bottom: 3rem;
   padding-right: 2.4rem;
   padding-bottom: .5rem;
   justify-content: space-between;
@@ -541,7 +540,9 @@
 .merch-code-embed {
   width: 100vw;
   margin: auto 0;
+  display: block;
   position: relative;
+  margin-top: 3.2rem;
 }
 @media(max-width: 1200px) {
   .merch-dropdown-toggle {

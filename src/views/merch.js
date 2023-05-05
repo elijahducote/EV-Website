@@ -368,8 +368,14 @@ const Merch = (props) => {
 
 <script type="text/javascript"
         src="https://evdmusic.myspreadshop.com/shopfiles/shopclient/shopclient.nocache.js">
-        var div = document.getElementByTagName("div").firstChild;
-        div.remove();
+</script>
+<script>
+var base;
+window.onload = function get_body() {
+base = document.getElementsByTagName('body')[0];
+base.firstElementChild.remove();
+}
+if (base) base.firstElementChild.remove();
 </script>`}
         ></DangerousHTML>
       </div>
