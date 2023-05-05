@@ -114,79 +114,7 @@ const Home = (props) => {
                     >
                       <div
                         data-thq="thq-dropdown-toggle"
-                        className="home-dropdown-toggle1"
-                      >
-                        <a
-                          href="https://soundcloud.com/yearthree/sets/thurgood-grooves?utm_source=clipboard&amp;utm_medium=text&amp;utm_campaign=social_sharing"
-                          target="_blank"
-                          rel="noreferrer noopener"
-                          className="home-days-to-grow"
-                        >
-                          Days to Grow
-                        </a>
-                      </div>
-                    </li>
-                    <li
-                      data-thq="thq-dropdown"
-                      className="home-dropdown1 list-item"
-                    >
-                      <div
-                        data-thq="thq-dropdown-toggle"
-                        className="home-dropdown-toggle2"
-                      >
-                        <a
-                          href="https://soundcloud.com/yearthree/sets/loner?si=a12af9a8e6d94534a546335b2de5e996&amp;utm_source=clipboard&amp;utm_medium=text&amp;utm_campaign=social_sharing"
-                          target="_blank"
-                          rel="noreferrer noopener"
-                          className="home-loner"
-                        >
-                          Loner EP
-                        </a>
-                      </div>
-                    </li>
-                    <li
-                      data-thq="thq-dropdown"
-                      className="home-dropdown2 list-item"
-                    >
-                      <div
-                        data-thq="thq-dropdown-toggle"
-                        className="home-dropdown-toggle3"
-                      >
-                        <a
-                          href="https://soundcloud.com/yearthree/sets/lost-valentine?si=e6c2046aa8634b539adda2b4ad48272b&amp;utm_source=clipboard&amp;utm_medium=text&amp;utm_campaign=social_sharing"
-                          target="_blank"
-                          rel="noreferrer noopener"
-                          className="home-loner1"
-                        >
-                          Lost Valentine
-                        </a>
-                      </div>
-                    </li>
-                    <li
-                      data-thq="thq-dropdown"
-                      className="home-dropdown3 list-item"
-                    >
-                      <div
-                        data-thq="thq-dropdown-toggle"
-                        className="home-dropdown-toggle4"
-                      >
-                        <a
-                          href="https://soundcloud.com/yearthree/sets/mom-3-16-album?si=86c42737389a43669d304298323bf524&amp;utm_source=clipboard&amp;utm_medium=text&amp;utm_campaign=social_sharing"
-                          target="_blank"
-                          rel="noreferrer noopener"
-                          className="home-mom"
-                        >
-                          Mom 3:16
-                        </a>
-                      </div>
-                    </li>
-                    <li
-                      data-thq="thq-dropdown"
-                      className="home-dropdown4 list-item"
-                    >
-                      <div
-                        data-thq="thq-dropdown-toggle"
-                        className="home-dropdown-toggle5"
+                        className="home-dropdown-toggle01"
                       >
                         <a
                           href="https://soundcloud.com/yearthree/sets/recover-now-or-never?utm_source=clipboard&amp;utm_medium=text&amp;utm_campaign=social_sharing"
@@ -200,11 +128,119 @@ const Home = (props) => {
                     </li>
                     <li
                       data-thq="thq-dropdown"
+                      className="home-dropdown1 list-item"
+                    >
+                      <div
+                        data-thq="thq-dropdown-toggle"
+                        className="home-dropdown-toggle02"
+                      >
+                        <a
+                          href="https://soundcloud.com/yearthree/sets/when-the-wind-blows-album?si=ae6495e32fdf44c6aa72beaed9bf4b10&amp;utm_source=clipboard&amp;utm_medium=text&amp;utm_campaign=social_sharing"
+                          target="_blank"
+                          rel="noreferrer noopener"
+                          className="home-when-the-wind-blows"
+                        >
+                          When the Wind Blows
+                        </a>
+                      </div>
+                    </li>
+                    <li
+                      data-thq="thq-dropdown"
+                      className="home-dropdown2 list-item"
+                    >
+                      <div
+                        data-thq="thq-dropdown-toggle"
+                        className="home-dropdown-toggle03"
+                      >
+                        <a
+                          href="https://soundcloud.com/yearthree/sets/mom-3-16-album?si=86c42737389a43669d304298323bf524&amp;utm_source=clipboard&amp;utm_medium=text&amp;utm_campaign=social_sharing"
+                          target="_blank"
+                          rel="noreferrer noopener"
+                          className="home-mom"
+                        >
+                          Mom 3:16
+                        </a>
+                      </div>
+                    </li>
+                    <li
+                      data-thq="thq-dropdown"
+                      className="home-dropdown3 list-item"
+                    >
+                      <div
+                        data-thq="thq-dropdown-toggle"
+                        className="home-dropdown-toggle04"
+                      >
+                        <a
+                          href="https://soundcloud.com/yearthree/sets/year-three?si=d0e622465a7a4d0aa9a759bef663a6f4&amp;utm_source=clipboard&amp;utm_medium=text&amp;utm_campaign=social_sharing"
+                          target="_blank"
+                          rel="noreferrer noopener"
+                          className="home-year-3"
+                        >
+                          Year Three
+                        </a>
+                      </div>
+                    </li>
+                    <li
+                      data-thq="thq-dropdown"
+                      className="home-dropdown4 list-item"
+                    >
+                      <div
+                        data-thq="thq-dropdown-toggle"
+                        className="home-dropdown-toggle05"
+                      >
+                        <a
+                          href="https://soundcloud.com/yearthree/sets/lost-valentine?si=e6c2046aa8634b539adda2b4ad48272b&amp;utm_source=clipboard&amp;utm_medium=text&amp;utm_campaign=social_sharing"
+                          target="_blank"
+                          rel="noreferrer noopener"
+                          className="home-never-mine"
+                        >
+                          Lost Valentine
+                        </a>
+                      </div>
+                    </li>
+                    <li
+                      data-thq="thq-dropdown"
                       className="home-dropdown5 list-item"
                     >
                       <div
                         data-thq="thq-dropdown-toggle"
-                        className="home-dropdown-toggle6"
+                        className="home-dropdown-toggle06"
+                      >
+                        <a
+                          href="https://soundcloud.com/yearthree/sets/thurgood-grooves?utm_source=clipboard&amp;utm_medium=text&amp;utm_campaign=social_sharing"
+                          target="_blank"
+                          rel="noreferrer noopener"
+                          className="home-days-to-grow"
+                        >
+                          Days to Grow
+                        </a>
+                      </div>
+                    </li>
+                    <li
+                      data-thq="thq-dropdown"
+                      className="home-dropdown6 list-item"
+                    >
+                      <div
+                        data-thq="thq-dropdown-toggle"
+                        className="home-dropdown-toggle07"
+                      >
+                        <a
+                          href="https://soundcloud.com/yearthree/sets/loner?si=a12af9a8e6d94534a546335b2de5e996&amp;utm_source=clipboard&amp;utm_medium=text&amp;utm_campaign=social_sharing"
+                          target="_blank"
+                          rel="noreferrer noopener"
+                          className="home-loner"
+                        >
+                          Loner EP
+                        </a>
+                      </div>
+                    </li>
+                    <li
+                      data-thq="thq-dropdown"
+                      className="home-dropdown7 list-item"
+                    >
+                      <div
+                        data-thq="thq-dropdown-toggle"
+                        className="home-dropdown-toggle08"
                       >
                         <svg viewBox="0 0 1024 1024" className="home-icon12">
                           <path d="M874 598v-214h-52v192h-48v-150h-54v150h-48v-192h-54v214q0 18 13 30t31 12h170q18 0 30-12t12-30zM576 438v-54h-170v256h170v-54h-106v-46h106v-54h-106v-48h106zM362 640v-256h-52v150l-108-150h-52v256h52v-150l110 150h50zM854 170q36 0 60 25t24 61v512q0 36-24 61t-60 25h-684q-36 0-60-25t-24-61v-512q0-36 24-61t60-25h684z"></path>
@@ -221,37 +257,22 @@ const Home = (props) => {
                     </li>
                     <li
                       data-thq="thq-dropdown"
-                      className="home-dropdown6 list-item"
+                      className="home-dropdown8 list-item"
                     >
                       <div
                         data-thq="thq-dropdown-toggle"
-                        className="home-dropdown-toggle7"
+                        className="home-dropdown-toggle09"
                       >
+                        <svg viewBox="0 0 1024 1024" className="home-icon14">
+                          <path d="M874 598v-214h-52v192h-48v-150h-54v150h-48v-192h-54v214q0 18 13 30t31 12h170q18 0 30-12t12-30zM576 438v-54h-170v256h170v-54h-106v-46h106v-54h-106v-48h106zM362 640v-256h-52v150l-108-150h-52v256h52v-150l110 150h50zM854 170q36 0 60 25t24 61v512q0 36-24 61t-60 25h-684q-36 0-60-25t-24-61v-512q0-36 24-61t60-25h684z"></path>
+                        </svg>
                         <a
-                          href="https://soundcloud.com/yearthree/sets/when-the-wind-blows-album?si=ae6495e32fdf44c6aa72beaed9bf4b10&amp;utm_source=clipboard&amp;utm_medium=text&amp;utm_campaign=social_sharing"
+                          href="https://soundcloud.com/yearthree/sets/trance-being"
                           target="_blank"
                           rel="noreferrer noopener"
-                          className="home-when-the-wind-blows"
+                          className="home-trance-being"
                         >
-                          When the Wind Blows
-                        </a>
-                      </div>
-                    </li>
-                    <li
-                      data-thq="thq-dropdown"
-                      className="home-dropdown7 list-item"
-                    >
-                      <div
-                        data-thq="thq-dropdown-toggle"
-                        className="home-dropdown-toggle8"
-                      >
-                        <a
-                          href="https://soundcloud.com/yearthree/sets/year-three?si=d0e622465a7a4d0aa9a759bef663a6f4&amp;utm_source=clipboard&amp;utm_medium=text&amp;utm_campaign=social_sharing"
-                          target="_blank"
-                          rel="noreferrer noopener"
-                          className="home-year-3"
-                        >
-                          Year Three
+                          Trance Being
                         </a>
                       </div>
                     </li>
@@ -294,7 +315,7 @@ const Home = (props) => {
                 target="_blank"
                 rel="noreferrer noopener"
               >
-                <svg viewBox="0 0 1024 1024" className="home-icon14">
+                <svg viewBox="0 0 1024 1024" className="home-icon16">
                   <path d="M891.96 514.204c-18.086 0-35.348 3.52-51.064 9.856-10.506-114.358-110.29-204.060-232-204.060-29.786 0-58.682 5.63-84.318 15.164-9.96 3.702-12.578 7.52-12.578 14.916v402.714c0 7.766 6.24 14.234 14.124 14.996 0.336 0.034 363.536 0.21 365.89 0.21 72.904 0 131.986-56.816 131.986-126.894s-59.134-126.902-132.040-126.902zM400 768h32l16-224.22-16-223.78h-32l-16 223.78zM304 768h-32l-16-162.75 16-157.25h32l16 160zM144 768h32l16-128-16-128h-32l-16 128zM16 704h32l16-64-16-64h-32l-16 64z"></path>
                 </svg>
               </a>
@@ -307,19 +328,19 @@ const Home = (props) => {
               >
                 <svg
                   viewBox="0 0 877.7142857142857 1024"
-                  className="home-icon16"
+                  className="home-icon18"
                 >
                   <path d="M585.143 512c0-80.571-65.714-146.286-146.286-146.286s-146.286 65.714-146.286 146.286 65.714 146.286 146.286 146.286 146.286-65.714 146.286-146.286zM664 512c0 124.571-100.571 225.143-225.143 225.143s-225.143-100.571-225.143-225.143 100.571-225.143 225.143-225.143 225.143 100.571 225.143 225.143zM725.714 277.714c0 29.143-23.429 52.571-52.571 52.571s-52.571-23.429-52.571-52.571 23.429-52.571 52.571-52.571 52.571 23.429 52.571 52.571zM438.857 152c-64 0-201.143-5.143-258.857 17.714-20 8-34.857 17.714-50.286 33.143s-25.143 30.286-33.143 50.286c-22.857 57.714-17.714 194.857-17.714 258.857s-5.143 201.143 17.714 258.857c8 20 17.714 34.857 33.143 50.286s30.286 25.143 50.286 33.143c57.714 22.857 194.857 17.714 258.857 17.714s201.143 5.143 258.857-17.714c20-8 34.857-17.714 50.286-33.143s25.143-30.286 33.143-50.286c22.857-57.714 17.714-194.857 17.714-258.857s5.143-201.143-17.714-258.857c-8-20-17.714-34.857-33.143-50.286s-30.286-25.143-50.286-33.143c-57.714-22.857-194.857-17.714-258.857-17.714zM877.714 512c0 60.571 0.571 120.571-2.857 181.143-3.429 70.286-19.429 132.571-70.857 184s-113.714 67.429-184 70.857c-60.571 3.429-120.571 2.857-181.143 2.857s-120.571 0.571-181.143-2.857c-70.286-3.429-132.571-19.429-184-70.857s-67.429-113.714-70.857-184c-3.429-60.571-2.857-120.571-2.857-181.143s-0.571-120.571 2.857-181.143c3.429-70.286 19.429-132.571 70.857-184s113.714-67.429 184-70.857c60.571-3.429 120.571-2.857 181.143-2.857s120.571-0.571 181.143 2.857c70.286 3.429 132.571 19.429 184 70.857s67.429 113.714 70.857 184c3.429 60.571 2.857 120.571 2.857 181.143z"></path>
                 </svg>
               </a>
             </div>
-            <div className="home-container09">
+            <div>
               <a
                 href="https://www.youtube.com/@_evmusic"
                 target="_blank"
                 rel="noreferrer noopener"
               >
-                <svg viewBox="0 0 1024 1024" className="home-icon18">
+                <svg viewBox="0 0 1024 1024" className="home-icon20">
                   <path d="M406.286 644.571l276.571-142.857-276.571-144.571v287.429zM512 152c215.429 0 358.286 10.286 358.286 10.286 20 2.286 64 2.286 102.857 43.429 0 0 31.429 30.857 40.571 101.714 10.857 82.857 10.286 165.714 10.286 165.714v77.714s0.571 82.857-10.286 165.714c-9.143 70.286-40.571 101.714-40.571 101.714-38.857 40.571-82.857 40.571-102.857 42.857 0 0-142.857 10.857-358.286 10.857v0c-266.286-2.286-348-10.286-348-10.286-22.857-4-74.286-2.857-113.143-43.429 0 0-31.429-31.429-40.571-101.714-10.857-82.857-10.286-165.714-10.286-165.714v-77.714s-0.571-82.857 10.286-165.714c9.143-70.857 40.571-101.714 40.571-101.714 38.857-41.143 82.857-41.143 102.857-43.429 0 0 142.857-10.286 358.286-10.286v0z"></path>
                 </svg>
               </a>
