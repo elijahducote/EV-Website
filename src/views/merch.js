@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 import DangerousHTML from 'dangerous-html/react'
 import { Helmet } from 'react-helmet'
 
-import NavigationLinks31 from '../components/navigation-links31'
+import NavigationLinks3 from '../components/navigation-links3'
 import './merch.css'
 
 const Merch = (props) => {
@@ -22,7 +22,7 @@ const Merch = (props) => {
           className="merch-image"
         />
         <div className="merch-nav">
-          <NavigationLinks31 rootClassName="navigation-links31-root-class-name"></NavigationLinks31>
+          <NavigationLinks3 rootClassName="navigation-links3-root-class-name9"></NavigationLinks3>
         </div>
         <div className="merch-icon-group">
           <div className="merch-row">
@@ -312,8 +312,8 @@ const Merch = (props) => {
               </div>
             </nav>
           </div>
-          <div className="merch-icon-group1">
-            <div className="merch-container07">
+          <div className="merch-container07">
+            <div className="merch-container08">
               <a
                 href="https://soundcloud.com/yearthree"
                 target="_blank"
@@ -324,7 +324,7 @@ const Merch = (props) => {
                 </svg>
               </a>
             </div>
-            <div className="merch-container08">
+            <div className="merch-container09">
               <a
                 href="https://www.instagram.com/_evmusic_/"
                 target="_blank"
@@ -376,6 +376,7 @@ base.firstElementChild.remove();
 </script>
 <script type="text/javascript"
         src="https://evdmusic.myspreadshop.com/shopfiles/shopclient/shopclient.nocache.js">
+window.onload();
 window.onload();
 window.onload();
 window.onload();
