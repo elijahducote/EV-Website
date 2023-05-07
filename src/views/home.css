@@ -3,6 +3,7 @@
   display: flex;
   overflow: auto;
   min-height: 100vh;
+  overflow-x: hidden;
   align-items: center;
   flex-direction: column;
   background-color: #92a2e8;
@@ -89,6 +90,8 @@
   z-index: 100;
   position: absolute;
   min-height: 100vh;
+  overflow-x: hidden;
+  overflow-y: auto;
   flex-direction: column;
   justify-content: space-between;
   background-color: #fff;
