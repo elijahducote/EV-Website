@@ -377,6 +377,10 @@ base.firstElementChild.remove();
 <script type="text/javascript"
         src="https://evdmusic.myspreadshop.com/shopfiles/shopclient/shopclient.nocache.js">
 window.onload();
+window.onload();
+window.onload();
+window.onload();
+window.onload();
 </script>`}
         ></DangerousHTML>
       </div>

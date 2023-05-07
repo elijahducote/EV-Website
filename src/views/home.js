@@ -308,8 +308,8 @@ const Home = (props) => {
               </div>
             </nav>
           </div>
-          <div className="home-icon-group1">
-            <div className="home-container07">
+          <div className="home-container07">
+            <div className="home-container08">
               <a
                 href="https://soundcloud.com/yearthree"
                 target="_blank"
@@ -320,7 +320,7 @@ const Home = (props) => {
                 </svg>
               </a>
             </div>
-            <div className="home-container08">
+            <div className="home-container09">
               <a
                 href="https://www.instagram.com/_evmusic_/"
                 target="_blank"
