@@ -591,6 +591,10 @@
   max-width: auto;
 }
 @media(max-width: 1600px) {
+  .home-icon06 {
+    width: 2rem;
+    height: 2rem;
+  }
   .home-hero {
     background-image: url("/playground_assets/weird_state.png");
   }

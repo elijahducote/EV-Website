@@ -22,7 +22,7 @@ const Merch = (props) => {
           className="merch-image"
         />
         <div className="merch-nav">
-          <NavigationLinks3 rootClassName="navigation-links3-root-class-name9"></NavigationLinks3>
+          <NavigationLinks3 rootClassName="navigation-links3-root-class-name10"></NavigationLinks3>
         </div>
         <div className="merch-icon-group">
           <div className="merch-row">

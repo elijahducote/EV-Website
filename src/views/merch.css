@@ -541,6 +541,12 @@
   position: relative;
   margin-top: 3.2rem;
 }
+@media(max-width: 1600px) {
+  .merch-icon06 {
+    width: 2rem;
+    height: 2rem;
+  }
+}
 @media(max-width: 1200px) {
   .merch-dropdown-toggle {
     flex-direction: row;
