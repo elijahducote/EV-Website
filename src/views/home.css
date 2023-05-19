@@ -2,11 +2,11 @@
   width: 100%;
   display: flex;
   overflow: auto;
+  background: #92a2e8;
   min-height: 100vh;
   overflow-x: hidden;
   align-items: center;
   flex-direction: column;
-  background-color: #92a2e8;
 }
 .home-header {
   width: 100%;
@@ -540,17 +540,43 @@
 }
 .home-hero {
   width: 100%;
+  margin: 4rem 2rem;
   display: flex;
   padding: 2.4rem;
   position: relative;
-  margin-top: 4rem;
   min-height: 57vh;
   align-items: center;
-  margin-bottom: 2rem;
   flex-direction: column;
   background-size: cover;
   justify-content: center;
-  background-image: linear-gradient(348deg,hsla(104.87,77.78%,30%,.5) 0%,hsla(110.13,58.06%,33.72%,.5) 5.8%,hsla(114.91,44.34%,36.88%,.5) 11.3%,hsla(120.29,33.74%,39.74%,.5) 16.5%,hsla(126.53,28.54%,41.28%,.5) 21.7%,hsla(133.86,23.65%,42.82%,.5) 26.8%,hsla(143.14,19.15%,44.34%,.5) 32%,hsla(155.8,15.06%,45.81%,.5) 37.4%,hsla(174.56,11.36%,47.22%,.5) 43.1%,hsla(197.96,11.18%,50.22%,.5) 49.2%,hsla(215.56,13.31%,53.47%,.5) 55.9%,hsla(228.98,15.53%,56.48%,.5) 63.1%,hsla(239.48,17.81%,59.21%,.5) 71%,hsla(246.89,22.15%,60.67%,.5) 79.7%,hsla(251.59,26.35%,61.9%,.5) 89.3%,hsla(254.74,30.16%,62.94%,.5) 100%),url("/playground_assets/weird_state.png");
+  background-image: linear-gradient(175deg, rgba(83,235,227,0.48) 0%, rgba(129,113,171,0.64) 100%),url("/playground_assets/star.png");
+  background-repeat:  no-repeat;
+  background-position: 25% 60%;
+}
+.home-container11 {
+  width: 100%;
+  height: 16em;
+  display: flex;
+  max-width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+.home-image2 {
+  width: 14.4rem;
+  margin: 3rem;
+  box-shadow: .25em .5em 3.5em rgba(0,0,0,0.6);
+  object-fit: cover;
+}
+.home-image3 {
+  width: 14.4rem;
+  box-shadow: .25em .5em 3.5em rgba(0,0,0,0.6);
+  object-fit: cover;
+}
+.home-image4 {
+  width: 14.4rem;
+  margin: 3rem;
+  box-shadow: .25em .5em 3.5em rgba(0,0,0,0.6);
+  object-fit: cover;
 }
 .home-text2 {
   color: var(--dl-color-gray-white);
@@ -585,36 +611,34 @@
 .home-text5 {
   font-size: 1.6rem;
 }
-.home-text6:hover {
-  transform: scale(1.02);
-}
 .home-iframe {
-  width: 32rem;
-  height: 25rem;
-  max-width: auto;
+  width: 42rem;
+  height: 26rem;
+  max-width: 100%;
+  margin-top: 1rem;
 }
 @media(max-width: 1600px) {
   .home-icon06 {
     width: 2rem;
     height: 2rem;
   }
-  .home-hero {
-    background-image: url("/playground_assets/weird_state.png");
-  }
   .home-text2 {
     color: var(--dl-color-gray-white);
+    font-size: 1.6rem;
+    font-weight: 500;
   }
   .home-link8 {
     font-size: 0.75rem;
     text-transform: uppercase;
   }
   .home-text5 {
+    font-size: 1.6rem;
     text-align: center;
   }
   .home-iframe {
     width: 32rem;
-    height: 25rem;
     max-height: 100%;
+    min-height: 100%;
     margin-left: 0px;
   }
 }
@@ -633,19 +657,13 @@
   }
   .home-iframe {
     width: 32rem;
-    height: 25rem;
     max-width: auto;
+    min-height: 100%;
     padding-top: 0px;
     padding-right: 0px;
   }
 }
 @media(max-width: 991px) {
-  .home-header {
-    padding-top: .5rem;
-    padding-left: 2rem;
-    padding-right: 2rem;
-    padding-bottom: .4rem;
-  }
   .home-icon-group {
     margin-right: 1rem;
   }
@@ -660,8 +678,8 @@
   }
   .home-iframe {
     width: 32rem;
-    height: 25rem;
     max-width: auto;
+    min-height: 100%;
   }
 }
 @media(max-width: 767px) {
@@ -709,10 +727,22 @@
     padding-left: 1.6rem;
     padding-right: 1.6rem;
   }
+  .home-image2 {
+    width: 25vw;
+    margin: 1rem;
+  }
+  .home-image3 {
+    width: 25vw;
+    margin: 1rem;
+  }
+  .home-image4 {
+    width: 25vw;
+    margin: 1rem;
+  }
   .home-iframe {
     width: 28rem;
-    height: 25rem;
     max-width: auto;
+    max-height: 100%;
   }
 }
 @media(max-width: 479px) {
@@ -731,13 +761,24 @@
     padding-left: 1rem;
     padding-right: 1rem;
   }
+  .home-image2 {
+    width: 8rem;
+    margin: .5rem;
+  }
+  .home-image3 {
+    width: 8rem;
+    margin: .5rem;
+  }
+  .home-image4 {
+    width: 8rem;
+    margin: .5rem;
+  }
   .home-btn-group {
     flex-direction: column;
   }
   .home-iframe {
-    height: 25rem;
     max-width: 100vw;
-    min-width: auto;
+    min-width: 100%;
     align-self: stretch;
     margin-right: 0px;
     margin-bottom: 0px;

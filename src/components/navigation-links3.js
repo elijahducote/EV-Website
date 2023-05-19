@@ -53,7 +53,7 @@ const NavigationLinks3 = (props) => {
           </li>
           <li
             data-thq="thq-dropdown"
-            className="navigation-links3-dropdown1 list-item"
+            className="navigation-links3-dropdown01 list-item"
           >
             <div
               data-thq="thq-dropdown-toggle"
@@ -71,7 +71,7 @@ const NavigationLinks3 = (props) => {
           </li>
           <li
             data-thq="thq-dropdown"
-            className="navigation-links3-dropdown2 list-item"
+            className="navigation-links3-dropdown02 list-item"
           >
             <div
               data-thq="thq-dropdown-toggle"
@@ -89,7 +89,7 @@ const NavigationLinks3 = (props) => {
           </li>
           <li
             data-thq="thq-dropdown"
-            className="navigation-links3-dropdown3 list-item"
+            className="navigation-links3-dropdown03 list-item"
           >
             <div
               data-thq="thq-dropdown-toggle"
@@ -107,7 +107,7 @@ const NavigationLinks3 = (props) => {
           </li>
           <li
             data-thq="thq-dropdown"
-            className="navigation-links3-dropdown4 list-item"
+            className="navigation-links3-dropdown04 list-item"
           >
             <div
               data-thq="thq-dropdown-toggle"
@@ -125,7 +125,7 @@ const NavigationLinks3 = (props) => {
           </li>
           <li
             data-thq="thq-dropdown"
-            className="navigation-links3-dropdown5 list-item"
+            className="navigation-links3-dropdown05 list-item"
           >
             <div
               data-thq="thq-dropdown-toggle"
@@ -143,7 +143,7 @@ const NavigationLinks3 = (props) => {
           </li>
           <li
             data-thq="thq-dropdown"
-            className="navigation-links3-dropdown6 list-item"
+            className="navigation-links3-dropdown06 list-item"
           >
             <div
               data-thq="thq-dropdown-toggle"
@@ -161,7 +161,7 @@ const NavigationLinks3 = (props) => {
           </li>
           <li
             data-thq="thq-dropdown"
-            className="navigation-links3-dropdown7 list-item"
+            className="navigation-links3-dropdown07 list-item"
           >
             <div
               data-thq="thq-dropdown-toggle"
@@ -185,7 +185,7 @@ const NavigationLinks3 = (props) => {
           </li>
           <li
             data-thq="thq-dropdown"
-            className="navigation-links3-dropdown8 list-item"
+            className="navigation-links3-dropdown08 list-item"
           >
             <div
               data-thq="thq-dropdown-toggle"
@@ -204,6 +204,30 @@ const NavigationLinks3 = (props) => {
                 className="navigation-links3-trance-being"
               >
                 {props.text3211112}
+              </a>
+            </div>
+          </li>
+          <li
+            data-thq="thq-dropdown"
+            className="navigation-links3-dropdown09 list-item"
+          >
+            <div
+              data-thq="thq-dropdown-toggle"
+              className="navigation-links3-dropdown-toggle10"
+            >
+              <svg viewBox="0 0 1024 1024" className="navigation-links3-icon6">
+                <path
+                  d="M874 598v-214h-52v192h-48v-150h-54v150h-48v-192h-54v214q0 18 13 30t31 12h170q18 0 30-12t12-30zM576 438v-54h-170v256h170v-54h-106v-46h106v-54h-106v-48h106zM362 640v-256h-52v150l-108-150h-52v256h52v-150l110 150h50zM854 170q36 0 60 25t24 61v512q0 36-24 61t-60 25h-684q-36 0-60-25t-24-61v-512q0-36 24-61t60-25h684z"
+                  className=""
+                ></path>
+              </svg>
+              <a
+                href={props.link_text2111121}
+                target="_blank"
+                rel="noreferrer noopener"
+                className="navigation-links3-star"
+              >
+                {props.text32111121}
               </a>
             </div>
           </li>
@@ -249,6 +273,7 @@ NavigationLinks3.defaultProps = {
   text31: 'Merch',
   link_text2111:
     'https://soundcloud.com/yearthree/sets/recover-now-or-never?utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing',
+  link_text2111121: 'https://soundcloud.com/yearthree/sets/star',
   link_text21:
     'https://soundcloud.com/yearthree/sets/lost-valentine?si=e6c2046aa8634b539adda2b4ad48272b&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing',
   link_text:
@@ -263,11 +288,14 @@ NavigationLinks3.defaultProps = {
   text32111: 'Recover Now or Never',
   link_text211112: 'https://soundcloud.com/yearthree/sets/trance-being',
   text3: 'Days to Grow',
+  text32111121: 'Star',
   link_text21111:
     'https://soundcloud.com/yearthree/sets/weird-state?si=ea2bad563c9f4eff9ab1285f4d78e394&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing',
   text5: 'Home',
   link_text1:
     'https://soundcloud.com/yearthree/sets/thurgood-grooves?utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing',
+  text321111211: 'Star',
+  link_text21111211: 'https://soundcloud.com/yearthree/sets/star',
 }
 
 NavigationLinks3.propTypes = {
@@ -282,6 +310,7 @@ NavigationLinks3.propTypes = {
   text321111: PropTypes.string,
   text31: PropTypes.string,
   link_text2111: PropTypes.string,
+  link_text2111121: PropTypes.string,
   link_text21: PropTypes.string,
   link_text: PropTypes.string,
   text3211112: PropTypes.string,
@@ -292,9 +321,12 @@ NavigationLinks3.propTypes = {
   text32111: PropTypes.string,
   link_text211112: PropTypes.string,
   text3: PropTypes.string,
+  text32111121: PropTypes.string,
   link_text21111: PropTypes.string,
   text5: PropTypes.string,
   link_text1: PropTypes.string,
+  text321111211: PropTypes.string,
+  link_text21111211: PropTypes.string,
 }
 
 export default NavigationLinks3

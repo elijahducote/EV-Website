@@ -349,29 +349,46 @@ const Home = (props) => {
         </div>
       </header>
       <div className="home-hero vignette content">
+        <div className="home-container11">
+          <img
+            alt="Weird State"
+            src="https://dishecti.sirv.com/Images/Weird_State-EV.png"
+            className="home-image2"
+          />
+          <img
+            alt="Trance Being"
+            src="/playground_assets/tb.png"
+            className="home-image3"
+          />
+          <img
+            alt="Trance Being"
+            src="/playground_assets/star.png"
+            className="home-image4"
+          />
+        </div>
         <span className="home-text2">
           <span>
-            This album is an ambient electronic story about a man, an
-            interaction with aliens, and his family.
+            This analogical album trilogy are an ambient electronic story about
+            a man, an interaction with aliens, and his family.
           </span>
           <br></br>
         </span>
         <div className="home-btn-group">
           <a
-            href="https://open.spotify.com/artist/5hTbr7Q7inWI4pYOcOPsH0/discography"
+            href="https://soundcloud.com/yearthree/sets/electronic-star/s-8UbLU9HhLuu"
             target="_blank"
             rel="noreferrer noopener"
             className="home-link8 button"
           >
             <span className="home-text5">
-              <span className="home-text6">Stream Now</span>
+              <span>Stream Now</span>
               <br></br>
             </span>
           </a>
         </div>
       </div>
       <iframe
-        src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/1513660456&amp;color=%23ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;show_teaser=true"
+        src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/1529973280&amp;color=%23ff5500&amp;auto_play=false&amp;hide_related=true&amp;show_comments=false&amp;show_user=false&amp;show_reposts=false&amp;show_teaser=true&amp;visual=true"
         allow="autoplay"
         scrolling="no"
         frameborder="no"
