@@ -273,7 +273,6 @@ NavigationLinks3.defaultProps = {
   text31: 'Merch',
   link_text2111:
     'https://soundcloud.com/yearthree/sets/recover-now-or-never?utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing',
-  link_text2111121: 'https://soundcloud.com/yearthree/sets/star',
   link_text21:
     'https://soundcloud.com/yearthree/sets/lost-valentine?si=e6c2046aa8634b539adda2b4ad48272b&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing',
   link_text:
@@ -288,12 +287,13 @@ NavigationLinks3.defaultProps = {
   text32111: 'Recover Now or Never',
   link_text211112: 'https://soundcloud.com/yearthree/sets/trance-being',
   text3: 'Days to Grow',
-  text32111121: 'Star',
   link_text21111:
     'https://soundcloud.com/yearthree/sets/weird-state?si=ea2bad563c9f4eff9ab1285f4d78e394&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing',
   text5: 'Home',
   link_text1:
     'https://soundcloud.com/yearthree/sets/thurgood-grooves?utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing',
+  text32111121: 'Star',
+  link_text2111121: 'https://soundcloud.com/yearthree/sets/star',
   text321111211: 'Star',
   link_text21111211: 'https://soundcloud.com/yearthree/sets/star',
 }
@@ -310,7 +310,6 @@ NavigationLinks3.propTypes = {
   text321111: PropTypes.string,
   text31: PropTypes.string,
   link_text2111: PropTypes.string,
-  link_text2111121: PropTypes.string,
   link_text21: PropTypes.string,
   link_text: PropTypes.string,
   text3211112: PropTypes.string,
@@ -321,10 +320,11 @@ NavigationLinks3.propTypes = {
   text32111: PropTypes.string,
   link_text211112: PropTypes.string,
   text3: PropTypes.string,
-  text32111121: PropTypes.string,
   link_text21111: PropTypes.string,
   text5: PropTypes.string,
   link_text1: PropTypes.string,
+  text32111121: PropTypes.string,
+  link_text2111121: PropTypes.string,
   text321111211: PropTypes.string,
   link_text21111211: PropTypes.string,
 }

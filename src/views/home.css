@@ -133,6 +133,7 @@
 .home-container02 {
   flex: 0 0 auto;
   display: flex;
+  font-size: 1.6rem;
   align-items: flex-start;
   flex-direction: column;
 }
@@ -142,6 +143,7 @@
 .home-container03 {
   flex: 0 0 auto;
   display: flex;
+  font-size: 1.6rem;
   align-items: flex-start;
   padding-left: 20%;
   flex-direction: column;
@@ -187,6 +189,7 @@
   display: none;
   z-index: 100;
   position: absolute;
+  font-size: 1rem;
   min-width: 100%;
   transition: 0.3s;
   align-items: stretch;
@@ -476,6 +479,7 @@
 .home-container04 {
   flex: 0 0 auto;
   display: flex;
+  font-size: 1.6rem;
   align-items: flex-start;
   padding-left: 20%;
   flex-direction: column;
@@ -487,6 +491,7 @@
 .home-container05 {
   flex: 0 0 auto;
   display: flex;
+  font-size: 1.6rem;
   align-items: flex-start;
   padding-left: 20%;
   flex-direction: column;
@@ -498,6 +503,7 @@
 .home-container06 {
   flex: 0 0 auto;
   display: flex;
+  font-size: 1.6rem;
   align-items: flex-start;
   padding-left: 20%;
   flex-direction: column;
