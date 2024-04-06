@@ -1,6 +1,6 @@
 import van from "vanjs-core";
 import {reactive,list} from "vanjs-ext";
-import {discography as json} from "./automation.json";
+import {discography as json} from "/../automation.json";
 
 function frag(item) {
   return van.tags[item];
