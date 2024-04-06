@@ -11,7 +11,9 @@
     "react-helmet": "^6.1.0",
     "prop-types": "15.7.2",
     "axios": "^1.6.8",
-    "dotenv": "^16.4.5"
+    "dotenv": "^16.4.5",
+    "vanjs-core": "^1.5.0",
+    "vanjs-ext": "^0.4.0"
   },
   "scripts": {
     "start": "craco start",
