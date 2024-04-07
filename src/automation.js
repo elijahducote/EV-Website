@@ -50,4 +50,4 @@ return list(frag("ul")({
 }
 document.addEventListener("rendered", function() {
   van.add(sectionA,populate);
-}, false)
+}, false);
