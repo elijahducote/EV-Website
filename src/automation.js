@@ -48,6 +48,6 @@ return list(frag("ul")({
   },item)
  });
 }
-document.addEventListener('rendered', function() {
+document.addEventListener("rendered", function() {
   van.add(sectionA,populate);
 }, false)
