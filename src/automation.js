@@ -6,8 +6,6 @@ function frag(item) {
   return van.tags[item];
 }
 
-const sectionA = document.getElementsByClassName("home-thq-dropdown")[0];
-
 function populate () {
 let typo = [],
 link = [],
@@ -49,5 +47,6 @@ return list(frag("ul")({
  });
 }
 document.addEventListener("rendered", function() {
+  var sectionA = document.getElementsByClassName("home-thq-dropdown")[0];
   van.add(sectionA,populate);
-}, false);
+}, false)
