@@ -1,12 +1,16 @@
 import React from 'react'
+import { useEffect } from 'react'
 import { Link } from 'react-router-dom'
-
 import { Helmet } from 'react-helmet'
 
 import NavigationLinks3 from '../components/navigation-links3'
 import './home.css'
 
 const Home = (props) => {
+  useEffect(() => {
+    const event = new Event('rendered')
+    document.dispatchEvent(event)
+  }, [])
   return (
     <div className="home-container">
       <Helmet>
