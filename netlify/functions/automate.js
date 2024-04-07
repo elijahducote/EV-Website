@@ -73,7 +73,7 @@ sorted = albums.sort((a, b) => {
 });
 var arrlen = albums.length;
 for (NTH = arrlen;NTH;--NTH) {
-  payload.push({name:sorted[arrlen - NTH].name,url:sorted[arrlen - NTH].external_urls.spotify,cover:sorted[arrlen - NTH].images[0].url});
+  payload.push({name:sorted[arrlen - NTH].name,url:sorted[arrlen - NTH].external_urls.spotify,cover:sorted[arrlen - NTH].images[0].url,date:sorted[arrlen - NTH].release_date});
 }
 json.discography = payload;
 fyl = JSON.stringify(json);
