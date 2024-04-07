@@ -104,7 +104,7 @@ const Home = (props) => {
                       </svg>
                     </div>
                   </div>
-                  <ul
+                  <!-- <ul
                     data-thq="thq-dropdown-list"
                     className="home-dropdown-list"
                   >
@@ -276,7 +276,7 @@ const Home = (props) => {
                         </a>
                       </div>
                     </li>
-                  </ul>
+                  </ul> -->
                 </div>
               </div>
               <div className="home-container04">
