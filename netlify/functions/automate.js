@@ -62,7 +62,7 @@ await axios.get("https://api.spotify.com/v1/artists/5hTbr7Q7inWI4pYOcOPsH0/top-t
 leng = stats.length;
 for (i = leng;i;--i) {
 cur = leng - i;
-poplus[cur] = {name:stats[cur].name,url:stats[cur].external_urls.spotify,album:stats[cur].album.name};
+poplus[cur] = {name:stats[cur].name,url:stats[cur].external_urls.spotify,album:stats[cur].album.name,photo:stats[cur].images[0].url};
 await axios.get("https://api.spotify.com/v1/artists/5hTbr7Q7inWI4pYOcOPsH0/albums?include_groups=album&limit=50",{headers:{"Authorization": `Bearer ${token}`}})
  .then(response => {
     if (response.status === 200) albums = response.data.items;
