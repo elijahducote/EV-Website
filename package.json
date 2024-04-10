@@ -17,6 +17,27 @@
     "dayjs": "^1.11.10",
     "fast-average-color": "^9.4.0"
   },
+  "scripts": {
+    "start": "craco start",
+    "build": "craco build",
+    "test": "craco test --env=jsdom",
+    "eject": "craco eject"
+  },
+  "engines": {
+    "node": "18.x"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
   "devDependencies": {
     "esbuild": "^0.20.2",
     "live-server": "^1.2.2"
