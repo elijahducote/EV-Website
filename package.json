@@ -1,45 +1,29 @@
 {
-  "name": "ev-music",
+  "name": "evdmusic",
   "version": "1.0.0",
-  "private": true,
+  "main": "automator.js",
+  "type": "module",
+  "engines": {
+    "npm": "10.2.4",
+    "node": "21.6.2"
+  },
+  "scripts": {
+    "dev": "node esbuild.config.js",
+    "test": "node esbuild.config.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
   "dependencies": {
-    "@craco/craco": "^7.0.0-alpha.0",
-    "react": "^17.0.2",
-    "react-dom": "^17.0.2",
-    "react-router-dom": "^5.2.0",
-    "dangerous-html": "0.1.12",
-    "react-helmet": "^6.1.0",
-    "prop-types": "15.7.2",
     "axios": "^1.6.8",
     "dotenv": "^16.4.5",
     "vanjs-core": "^1.5.0",
-    "vanjs-ext": "^0.4.0"
-  },
-  "scripts": {
-    "start": "craco start",
-    "build": "craco build",
-    "test": "craco test --env=jsdom",
-    "eject": "craco eject"
-  },
-  "engines": {
-    "node": "16.x"
-  },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
+    "vanjs-ext": "^0.4.0",
+    "dayjs": "^1.11.10",
+    "fast-average-color": "^9.4.0"
   },
   "devDependencies": {
-    "react-scripts": "^5.0.1",
-    "tailwindcss": "^3.0.24",
-    "autoprefixer": "^10.4.7",
-    "postcss": "^8.4.14"
+    "esbuild": "^0.20.2",
+    "live-server": "^1.2.2"
   }
 }

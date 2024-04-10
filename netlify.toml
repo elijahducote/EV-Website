@@ -2,6 +2,11 @@
   from = "/*"
   to = "/.netlify/functions/:splat"
   status = 200
-  
+
+[[redirects]]
+from = "/"
+to = "/ev"
+status = 200
+
 [functions]
   node_bundler = "esbuild"
