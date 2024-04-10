@@ -57,6 +57,6 @@ module.exports = {
   },
   "plugins": [],
   "content": [
-    "./src/**/*.{js,ts,jsx,tsx}"
+    "./ev/**/*.{js,ts,jsx,tsx}"
   ]
 }
