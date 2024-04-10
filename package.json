@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "ev/index.html",
   "scripts": {
-    "start": "ev/index.html"
+    "build": "react-scripts build"
   },
   "author": "",
   "license": "ISC",
