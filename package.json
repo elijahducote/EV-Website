@@ -4,8 +4,7 @@
   "main": "automator.js",
   "type": "module",
   "scripts": {
-    "dev": "node esbuild.config.js",
-    "test": "node esbuild.config.js"
+    "start": "node ./automator.js"
   },
   "author": "",
   "license": "ISC",
