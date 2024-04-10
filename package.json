@@ -3,10 +3,6 @@
   "version": "1.0.0",
   "main": "automator.js",
   "type": "module",
-  "engines": {
-    "npm": "10.2.4",
-    "node": "18.20.1"
-  },
   "scripts": {
     "dev": "node esbuild.config.js",
     "test": "node esbuild.config.js"
